@@ -1,57 +1,51 @@
-# React + TypeScript + Vite
+# Personal Portfolio Website (个人介绍网站)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cyberpunk-themed personal portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
+(基于 React + Vite + Tailwind CSS + Framer Motion 构建的赛博朋克风格个人作品集网站)
 
-Currently, two official plugins are available:
+## Features (功能特性)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cyberpunk Aesthetic**: Dynamic scanning grid backgrounds, particle effects, and neon glowing elements.
+  (赛博朋克美学：动态扫描网格背景、粒子特效和霓虹发光元素)
+- **Interactive Animations**: Custom 10-second SVG animations for each project, demonstrating technical concepts.
+  (交互动画：为每个项目定制的10秒SVG演示动画，展示核心技术概念)
+- **Responsive Design**: Fully responsive layout optimized for desktop and mobile.
+  (响应式设计：针对桌面和移动端优化的全响应式布局)
+- **Bilingual Support**: English and Chinese titles for broader accessibility.
+  (双语支持：中英文标题展示)
+- **Project Filtering**: Filter projects by categories (AI Agent, Data Asset, BI, Automation).
+  (项目筛选：支持按类别筛选项目)
 
-## Expanding the ESLint configuration
+## Tech Stack (技术栈)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Framework**: React 18 + Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Getting Started (开始使用)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pengzhitan/Resume.git
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
 
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
