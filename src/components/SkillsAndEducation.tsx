@@ -31,6 +31,7 @@ export const SkillsAndEducation = () => {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 glitch-text" data-text="TECHNICAL ARSENAL">
               TECHNICAL ARSENAL
+              <span className="block text-2xl md:text-3xl mt-2 text-primary/80 font-sans font-normal tracking-normal">技能与教育</span>
             </h2>
           </motion.div>
 
