@@ -9,7 +9,7 @@ export const resumeData = {
     phone: "16620863340",
     email: "pzt_china@163.com",
     location: "广州",
-    image: "/profile.jpg"
+    image: "profile.jpg"
   },
   advantages: [
     {
