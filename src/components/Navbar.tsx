@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Cpu } from 'lucide-react';
 
 const navItems = [
-  { name: 'Profile', href: '#hero' },
-  { name: 'Advantages', href: '#advantages' },
-  { name: 'Experience', href: '#experience' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Skills', href: '#skills' },
+  { name: 'Profile', label: '个人简介', href: '#hero' },
+  { name: 'Advantages', label: '核心优势', href: '#advantages' },
+  { name: 'Experience', label: '工作经历', href: '#experience' },
+  { name: 'Projects', label: '项目经验', href: '#projects' },
+  { name: 'Skills', label: '技能与教育', href: '#skills' },
 ];
 
 export const Navbar = () => {
