@@ -72,9 +72,12 @@ export const SkillsAndEducation = () => {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
           >
-            <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 font-['Orbitron'] text-primary">
-              <Award className="w-6 h-6" />
-              ACHIEVEMENTS & CERTIFICATES
+            <h3 className="text-2xl font-bold mb-8 flex flex-col items-start gap-1 font-['Orbitron'] text-primary">
+              <div className="flex items-center gap-3">
+                <Award className="w-6 h-6" />
+                ACHIEVEMENTS & CERTIFICATES
+              </div>
+              <span className="text-lg font-sans text-gray-400 ml-9 font-normal tracking-normal">荣誉奖项与证书</span>
             </h3>
             <div className="space-y-4">
               {resumeData.generalSkills.map((item, index) => (
