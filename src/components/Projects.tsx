@@ -117,7 +117,7 @@ export const Projects = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                onClick={() => setSelectedProject(null)}
+                onClick={() => setSelectedProjectId(null)}
                 className="absolute inset-0 bg-black/80 backdrop-blur-md"
               />
               
@@ -126,7 +126,7 @@ export const Projects = () => {
                 className="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-[#0a0a0a] border border-primary/30 rounded-2xl shadow-[0_0_50px_rgba(0,240,255,0.15)]"
               >
                 <button 
-                  onClick={() => setSelectedProject(null)}
+                  onClick={() => setSelectedProjectId(null)}
                   className="absolute top-4 right-4 p-2 rounded-full bg-white/10 hover:bg-white/20 text-white z-10 transition-colors"
                 >
                   <X className="w-6 h-6" />
