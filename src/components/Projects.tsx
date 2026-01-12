@@ -14,11 +14,15 @@ const categories = [
 
 export const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
-  const [selectedProject, setSelectedProject] = useState<typeof resumeData.projects[0] | null>(null);
+  const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
 
   const filteredProjects = activeCategory === "All" 
     ? resumeData.projects 
     : resumeData.projects.filter(p => p.category === activeCategory);
+
+  const selectedProject = selectedProjectId 
+    ? resumeData.projects.find(p => p.id === selectedProjectId) 
+    : null;
 
   return (
     <section id="projects" className="py-20 bg-black/50 relative">
@@ -96,7 +100,7 @@ export const Projects = () => {
 
                   <div className="mt-auto">
                     <button 
-                      onClick={() => setSelectedProject(project)}
+                      onClick={() => setSelectedProjectId(project.id)}
                       className="w-full py-3 rounded-lg bg-white/5 hover:bg-primary/20 border border-white/10 hover:border-primary/50 text-white hover:text-primary transition-all flex items-center justify-center gap-2 font-['Rajdhani'] font-bold tracking-wider group/btn"
                     >
                       VIEW DETAILS

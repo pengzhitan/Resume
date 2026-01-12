@@ -1,7 +1,7 @@
 # 彭志谭
 
 **业务数据部门负责人 / AI数据产品经理 | 8年经验 | 硕士学历**
-电话：16620863340 | 邮箱：pzt_china@163.com | 地点：广州
+电话：16620863340 | 邮箱：pzt_china@163.com | 地点：广州 | 个人网站：[https://pengzhitan.github.io/Resume/](https://pengzhitan.github.io/Resume/)
 
 ---
 
@@ -93,7 +93,7 @@
 
 **4. Metric Management Platform - 供应链知识管理平台**
 
-* *2025.08 - 2025.08 | AI数据产品经理*
+* *2025.08 - 2025.08 | AI数据产品经理 | demo:[https://pengzhitan.github.io/metric_management_platform/](https://pengzhitan.github.io/metric_management_platform/)*
 * **项目背景**：供应链业务流程复杂，文档（Confluence）与图表标准不一，知识沉淀分散，缺乏统一的可视化管理平台。
 * **解决方案**：
   * 搭建基于**React + Vite**的模块化知识平台，集成**Draw.io流程可视化**与Confluence知识图谱。
