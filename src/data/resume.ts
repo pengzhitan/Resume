@@ -264,7 +264,7 @@ export const resumeData = {
     {
       id: "user-lifecycle",
       title: "用户生命周期与精准营销项目",
-      role: "数据产品经理",
+      role: "数据分析师",
       period: "2018.03 - 2019.06",
       category: "BI & Mobile",
       background: "在线教育平台营收增长乏力，缺乏精细化用户运营体系与差异化营销策略。",
