@@ -141,6 +141,7 @@ export const resumeData = {
       role: "AI数据产品经理",
       period: "2025.08 - 2025.08",
       category: "Data Asset & Knowledge Management",
+      link: "https://pengzhitan.github.io/metric_management_platform/",
       background: "供应链业务流程复杂，文档（Confluence）与图表标准不一，知识沉淀分散，缺乏统一的可视化管理平台。",
       solution: [
         "搭建基于React + Vite的模块化知识平台，集成Draw.io流程可视化与Confluence知识图谱。",

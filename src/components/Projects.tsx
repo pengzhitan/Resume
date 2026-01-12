@@ -155,6 +155,20 @@ export const Projects = () => {
                         <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Timeline</div>
                         <div className="text-sm font-medium">{selectedProject.period}</div>
                       </div>
+                      {(selectedProject as any).link && (
+                        <a 
+                          href={(selectedProject as any).link} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="block p-3 rounded-lg bg-primary/10 border border-primary/20 hover:bg-primary/20 transition-colors text-center group"
+                        >
+                          <div className="text-xs text-primary uppercase tracking-wider mb-1 font-bold">Project Link</div>
+                          <div className="text-sm font-medium text-white flex items-center justify-center gap-2">
+                             View Live Demo
+                             <Rocket className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
+                          </div>
+                        </a>
+                      )}
                     </div>
                   </div>
 
